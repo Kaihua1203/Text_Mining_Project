@@ -10,13 +10,13 @@ Welcome everyone to commit it and correct my error in the code！
 
 ## Installation
 
-- Run 'git clone https://github.com/Kaihua1203/Text_Mining_Project.git' to create a copy of this git repository
-- Run 'pip install -r requirements.txt' to install all package what you need. Some nltk parts might need to be downloaded manually. Just check the terminal.
+- Run `git clone https://github.com/Kaihua1203/Text_Mining_Project.git` to create a copy of this git repository
+- Run `pip install -r requirements.txt` to install all package what you need. Some nltk parts might need to be downloaded manually. Just check the terminal.
 
 ## Usage
 
 - EDA(Exploratory Data Analysis) and visualization is in jupyternote [Here](./EDA.ipynb)
-- Run 'main.py'
+- Run `main.py`
 - select the modes, sample size and ML model in the terminal. Everything can be executed on the terminal.
 - ~~Model explanation~~
 
@@ -173,11 +173,11 @@ Visualization see [here](./images/Topic%20Modeling.png)
 ## Observations
 
 - SVM and Random Forest are time consuming in large dataset. 
-- Word vector is a sparse matrix, some ML models need dense matrix. If using 'numpy.toarray()', it will takes another
+- Word vector is a sparse matrix, some ML models need dense matrix. If using `numpy.toarray()`, it will takes another
 a long time to run.
-- Since LightGBM expects input features to be in 'float32/64' format, the labels should be converted from 'int' to 'float32/64'.
-- After Word2Vec technique transfers, word vectors have negative values. Since negative values will be passed in MultinomialNB, the data should be scaled to [0, 1] by 'MinMaxScaler()'.
-- In muticlass classfication, AUC scores can't be calculate by 'roc_auc_score(y_test, y_pred)' due to definition of ROC. So I use 'roc_auc_score(y_test, y_pred_proba, multi_class='ovr')', involving calculating the binary AUC for each class versus the rest and then averaging these AUC values.
+- Since LightGBM expects input features to be in `float32/64` format, the labels should be converted from `int` to `float32/64`.
+- After Word2Vec technique transfers, word vectors have negative values. Since negative values will be passed in MultinomialNB, the data should be scaled to [0, 1] by `MinMaxScaler()`.
+- In muticlass classfication, AUC scores can't be calculate by `roc_auc_score(y_test, y_pred)` due to definition of ROC. So I use `roc_auc_score(y_test, y_pred_proba, multi_class='ovr')`, involving calculating the binary AUC for each class versus the rest and then averaging these AUC values.
 - That's interesting to see the model without Stemming and Lemmatization has the better performance than the one with this preprocessing method:)
 
 ## TODO
