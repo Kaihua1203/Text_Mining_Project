@@ -10,7 +10,7 @@ Welcome everyone to commit it and correct my error in the code！
 
 ## Installation
 
-- Run 'git clone ...' to create a copy of this git repository
+- Run 'git clone https://github.com/Kaihua1203/Text_Mining_Project.git' to create a copy of this git repository
 - Run 'pip install -r requirements.txt' to install all package what you need. Some nltk parts might need to be downloaded manually. Just check the terminal.
 
 ## Usage
@@ -151,17 +151,17 @@ Welcome everyone to commit it and correct my error in the code！
 ### Topic Modeling
 
     Topic 1:
-    love im like want know hate life everyth friend
+    love im like want know hate life everyth friend make famili time alon happi
     Topic 2:
-    help peopl way make life think read mani thing
+    help peopl way make life think read mani thing time know sad word hope
     Topic 3:
-    im pretti littl today href like realli bit morn
+    im pretti littl today href like realli bit morn quit right good night run
     Topic 4:
-    like realli look peopl want think make accept know
+    like realli look peopl want think make accept know say someth dont person need
     Topic 5:
-    time like im day dont littl know ive bit
+    time like im day dont littl know ive bit thing work realli start week
     Topic 6:
-    like ive support bodi wonder start year felt hand
+    like ive support bodi wonder start year felt hand ach walk miss disgust day
 
 Visualization see [here](./images/Topic%20Modeling.png)
 
