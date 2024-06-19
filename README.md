@@ -10,8 +10,8 @@ Welcome everyone to commit it and correct my error in the code！
 
 ## Installation
 
-- Run 'git clone https://github.com/Kaihua1203/Text_Mining_Project.git' to create a copy of this git repository
-- Run 'pip install -r requirements.txt' to install all package what you need. Some nltk parts might need to be downloaded manually. Just check the terminal.
+- Run `git clone https://github.com/Kaihua1203/Text_Mining_Project.git` to create a copy of this git repository
+- Run `pip install -r requirements.txt` to install all package what you need. Some nltk parts might need to be downloaded manually. Just check the terminal.
 
 ## Usage
 
